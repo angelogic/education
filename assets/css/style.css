@@ -30,10 +30,10 @@ body {
     ===================================*/
 
 .logo-custom {
-    max-height: 100px;
+    max-height: 80px;
 	position: absolute;
-	top: 8px;
-    left: 16px;
+	top: 10px;
+    left: 10px;
 }
 
 #menu {
@@ -42,7 +42,7 @@ body {
     font-size: 12px;
     font-weight: 900;
     letter-spacing: 1px;
-    min-height: 70px;
+    min-height: 60px;
 }
 
 
@@ -52,18 +52,19 @@ body {
 
     .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover {
         color: #FFF;
-        padding: 40px 20px;
+        padding: 60px 120px;
     }
 .navbar-header {
-	padding: 40px 50px;
+	padding: 20px 50px;
 }
 
 /*=====================================
   HOME STYLES 
     ===================================*/
 .home-sec {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 60px;
+	height:120%;
     background: url(../img/header.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
@@ -74,11 +75,12 @@ body {
 
     .home-sec .overlay {
         background: rgba(0,0, 255, 0);
-        min-height: 500px;
+        min-height: 400px;
     }
 
     .home-sec h1 {
-        color: #fff;
+        color: white;
+		text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
         font-weight: 900;
         font-size: 50px;
         text-transform: uppercase;
@@ -88,7 +90,11 @@ body {
     .home-sec h3 {
         text-transform: uppercase;
     }
-
+	.home-sec h4{
+		color: white;
+		text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+		font-size:200%;
+	}
 
 
 .set-flexi {
@@ -306,4 +312,19 @@ p2{
   background-color: #00bfff;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+/*relocation navbar*/
+#navleft {
+	position:fixed;
+float:left;
+  top: 100%; left: 0%;
+  
+}
+
+#navright {
+	float:right;
+top:0%;
+right: 90%;
+
+
 }

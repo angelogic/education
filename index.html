@@ -7,6 +7,7 @@
     <meta name="author" content="" />
     <title>Habeshas School</title>
     <!-- BOOTSTRAP CORE STYLE CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME CSS -->
 <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
@@ -18,7 +19,9 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
 </head>
 <body >
-   
+  <!--signin Topleft starts--> 
+  
+  <!--signin Topleft ends--> 
  <div class="navbar navbar-inverse navbar-fixed-top " id="menu">
         <div class="container">
             <div class="navbar-header">
@@ -29,23 +32,37 @@
                 </button>
                 <a class="navbar-brand" href="#"><img class="logo-custom" src="assets/img/logo180-50.png" alt=""  /></a>
             </div>
+			<!---->
+			<div class="navbar-collapse collapse move-me">
+				
+                <ul class="nav navbar-nav navbar-right" id="navright">
+                    <li ><div class="btn-group">
+  <button type="button" class="btn btn-danger">
+   <i class="fa fa-sign-in" aria-hidden="true"></i>  Sign-In
+  </button>
+ 
+</div></li>
+
+<li ><div class="btn-group">
+  <button type="button" class="btn btn-danger" >
+   <span class="glyphicon glyphicon-user"></span> Sign-Up
+  </button>
+ 
+</div></li>
+</div>
+			<!---->
             <div class="navbar-collapse collapse move-me">
-                <ul class="nav navbar-nav navbar-right">
+				
+                <ul class="nav navbar-nav navbar-left" id="navleft">
                     <li ><div class="btn-group">
   <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
    Home
   </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Separated link</a>
-  </div>
+ 
 </div></li>
                      <li><div class="btn-group">
   <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Courses
+    Courses <span class="caret"></span>
   </button>
   <div class="dropdown-menu">
     <a class="dropdown-item" href="#">Action</a>
@@ -57,7 +74,7 @@
 </div></li>
                     <li><div class="btn-group">
   <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Package Deal
+    Package Deal <span class="caret"></span>
   </button>
   <div class="dropdown-menu">
     <a class="dropdown-item" href="#">Action</a>
@@ -71,36 +88,16 @@
   <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
    About
   </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Separated link</a>
-  </div>
+  
 </div></li>
                      <li><div class="btn-group">
   <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Contact
   </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Separated link</a>
-  </div>
+  
 </div></li>
-			<li><div class="btn-group">
-			
-  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fa fa-sign-in" aria-hidden="true"></i> Sign-In
-  </button>
-  <li><div class="btn-group">
-  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-   Register
-  </button>
-                </ul>
+		
+                
             </div>
            
         </div>
@@ -117,7 +114,7 @@
                     <ul class="slides move-me">
                         <!-- Slider 01 -->
                         <li>
-                              <h3>Delivering Quality Education</h3>
+                              <h4>Delivering Quality Education</h4>
                            <h1>Web Development</h1>
                             <a  href="#features-sec" class="btn btn-info btn-lg" >
                                Enroll 
@@ -130,7 +127,7 @@
                         
                         <!-- Slider 02 -->
                         <li>
-                            <h3>Delivering Quality Education</h3>
+                            <h4>Delivering Quality Education</h4>
                            <h1>QA Testing</h1>
                              <a  href="#features-sec" class="btn btn-primary btn-lg" >
                                Enroll
@@ -322,7 +319,7 @@
 
                     <h2 ><strong>Our Location </strong></h2>
         <hr />
-                    <div ">
+                    <div >
                         <h4>234/80 -UFG , New Street,</h4>
                         <h4>Switzerland.</h4>
                         <h4><strong>Call:</strong>  + 67-098-907-1269 / 70 / 71 </h4>
