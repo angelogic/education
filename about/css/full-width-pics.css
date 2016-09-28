@@ -6,6 +6,7 @@
 
 body {
     margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	
 }
 
 .image-bg-fluid-height,
@@ -19,7 +20,7 @@ body {
 
 .image-bg-fluid-height {
 	background-image:url("header.jpg")  ;
-    padding: 100px 0;
+    padding: 130px 0;
 }
 
 
@@ -29,7 +30,11 @@ body {
 }
 
 section {
-    padding: 75px 0;
+	  border-left:80px solid #ccffff;
+ border-right: 80px solid  #004080;
+  
+    
+    padding: 50px 0;
 }
 
 .section-heading {
@@ -58,4 +63,7 @@ footer {
     .section-heading {
         font-size: 2em;
     }
+}
+ul{
+	list-style:  square inside url("blueicon.png");
 }

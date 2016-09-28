@@ -29,36 +29,82 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+   <div class="navbar navbar-inverse navbar-fixed-top " id="menu" style="background-color:rgba(0, 191, 255,0.6);">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
+            <div class="navbar-header" style="position:fixed; top:0%;">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
+			<!---->
+			
+			<!---->
+            <div class="navbar-collapse collapse move-me">
+				
+                <ul class="nav navbar-nav navbar-left" id="navleft">
+                    <li ><div class="btn-group">
+  <a href="./index.html" ><button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   Home
+  </button></a>
+ 
+</div></li>
+                     <li><div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Courses <span class="caret"></span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div></li>
+                    <li><div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Package Deal <span class="caret"></span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div></li>
+                     <li><div class="btn-group">
+  <a href="contact.html" ><button type="button" class="btn btn-danger dropdown-toggle"  aria-haspopup="true" aria-expanded="false">
+   Contact
+  </button></a>
+  
+</div></li>
+                     <li><div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    About
+  </button>
+  
+</div></li>
+					<li ><div class="btn-group">
+  <button type="button" class="btn btn-danger">
+   <i class="fa fa-sign-in" aria-hidden="true"></i>  Sign-In
+  </button>
+ 
+</div></li>
+
+<li ><div class="btn-group">
+  <button type="button" class="btn btn-danger" >
+   <span class="glyphicon glyphicon-user"></span> Sign-Up
+  </button>
+ 
+</div></li>
+                
             </div>
-            <!-- /.navbar-collapse -->
+           
         </div>
-        <!-- /.container -->
-    </nav>
+    </div>
 
     <!-- Full Width Image Header with Logo -->
     <!-- Image backgrounds are set within the full-width-pics.css file. -->
@@ -71,10 +117,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="section-heading">Section Heading</h1>
-                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
-                </div>
+                    <ul><h1 class="section-heading">Web Development</h1>
+                    <li><p class="lead section-lead">Programming Fundamentals</p>
+                    <p class="section-paragraph">Understand how to set up your development environment, work efficiently as a developer, and make your projects a success. Learn programming fundamentals, along with the basics of computing, networks, and data structures.</p>
+					</li>
+					<li>
+					<p class="lead section-lead">The Basics of Product Development</p>
+                    <p class="section-paragraph">Define what a user should be able to do with your app, appropriately model your data, develop simple wireframes, and learn to track a collaborative development process using version control.</p>
+					</li>
+					<li>
+					<p class="lead section-lead">Front-End Web Development</p>
+                    <p class="section-paragraph">Before you start working with cutting-edge libraries and frameworks, gain an understanding of how to write high-quality JavaScript code. Learn to build a dynamic, front-end to your web application using a modern JavaScript library, and use CSS to layout and style your application.</p>
+					</li>
+					<li>
+					<p class="lead section-lead">Back-End Web Development</p>
+                  
+                    <p class="section-paragraph">Build web applications from the ground up using Ruby on Rails, a modern web language and MVC framework. Build quality APIs using Node.js and integrate data from other apps (like Twitter or Yelp) into your project.</p>
+					</li>
+					</ul>
+				</div>
             </div>
         </div>
     </section>
@@ -88,10 +149,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="section-heading">Section Heading</h1>
-                    <p class="lead section-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
-                </div>
+                 <ul>  <h1 class="section-heading">QA Testing</h1>
+                  <li>  <p class="lead section-lead">Training Introduction</p>
+                    <p class="section-paragraph">Quality Assurance (QA) in software development is the continuous monitoring of the complete software development cycle to improve the performance of the software product and to see that the final results are same as the expected results. With the help of QA and Testing tools techniques we will ensure that software product is a quality and bug free product.
+
+Online QA training course will make you understand the concepts of different testing environments. The software quality assurance online training courses trains you to use automation testing tools and manual testing tools.</p>
+					</li>
+			  <li> <p class="lead section-lead">Career Scope</p>
+                    <p class="section-paragraph">In the early days even testing was performed by the developers only, with the increasing demand of the quality of the product and to avoid the failures of the product after manufacturing it, which can lead to great money loss as well as life loss in some cases. In order to avoid all these failures, they have decided to perform testing from the scratch level. With this decision Software testing has become a profession.
+
+The need for QA testers will be always there as long as the programs are developed, so the scope for Software Testing is huge in the market. QA will be a good career prospective for the people who are looking for better career opportunities.
+
+QA Online Training / Testing Tools Online Training provided by Pro IT Online Training will offer you the hands on experience on the real time projects and helps you understand the role of QA in the product development life cycle.</p>
+				</li>
+				</ul>
+				</div>
             </div>
             <!-- /.row -->
         </div>
@@ -101,14 +173,34 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+             <div class="row set-row-pad"  >
+    <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1 ">
+
+                    <h2 ><strong>Our Location </strong></h2>
+        <hr />
+                    <div >
+                        <h4>234/80 -UFG , New Street,</h4>
+                        <h4>Switzerland.</h4>
+                        <h4><strong>Call:</strong>  + 67-098-907-1269 / 70 / 71 </h4>
+                        <h4><strong>Email: </strong>info@yourdomain.com</h4>
+                    </div>
+
+
                 </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
+                 <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1" ">
+
+                    <h2 ><strong>Social Conectivity </strong></h2>
+        <hr />
+                    <div >
+                        <a href="#">  <img src="../assets/img/Social/facebook.png" alt="" /> </a>
+                     <a href="#"> <img src="../assets/img/Social/google-plus.png" alt="" /></a>
+                     <a href="#"> <img src="../assets/img/Social/twitter.png" alt="" /></a>
+                    </div>
+                    </div>
+
+
+                </div>
+                 </div>
     </footer>
 
     <!-- jQuery -->

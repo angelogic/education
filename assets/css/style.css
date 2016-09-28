@@ -328,3 +328,16 @@ right: 90%;
 
 
 }
+/*video*/
+#video1,#video3{
+	 width= 300px; 
+	 height=300px;
+	 border: 10px dotted blue;
+    padding: 25px;
+    margin: 25px;
+}
+#video2{
+	border: 10px dotted blue;
+    padding: 25px;
+    margin: 25px;
+}
